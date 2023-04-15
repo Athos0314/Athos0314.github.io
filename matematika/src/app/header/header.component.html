@@ -1,0 +1,33 @@
+
+<header class="container-fluid">
+  <div class="row justify-content-center align-items-center">
+
+    <div class="col-10">
+      <a routerLink=""><img
+          src="https://cdn.pixabay.com/photo/2021/04/10/21/03/yellow-6168124_960_720.jpg"
+          alt="matematika" /></a>
+    </div>
+  </div>
+  <div class="text-light">
+    <hr />
+  </div>
+  <nav class="navbar navbar-expand">
+    <div class="container justify-content-center w-100">
+      <ul class="navbar-nav w-50 justify-content-evenly">
+        <li
+          class="nav-item"
+          routerLinkActive="active-link"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a class="nav-link" routerLink="elementary">Általános iskola</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active-link">
+          <a class="nav-link" routerLink="gymnasium">Gimnázium</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="text-light">
+    <hr />
+  </div>
+</header>
